@@ -9,8 +9,13 @@ function start(response) {
     '<head>'+
     '<meta http-equiv="Content-Type" '+
     'content="text/html; charset=UTF-8" />'+
+    '<style>'+
+    'body {background-color:#A5CDF0;font-family:Lucida Grande;}'+
+    '</style>'+
     '</head>'+
+    '<title>Image Uploader</title>'+
     '<body>'+
+    '<h1>Image Uploader Deluxe</h1>'+
     '<form action="/upload" enctype="multipart/form-data" '+
     'method="post">'+
     '<input type="file" name="upload" multiple="multiple">'+
